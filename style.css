@@ -1,0 +1,269 @@
+body {
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+  }
+  
+  .icon {
+    padding: 5px;
+    height: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: lightgrey;
+    color: black;
+    margin-right: 10px;
+  }
+  
+  .social_media {
+    color: black;
+    margin-left: 60%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    width: 20%;
+    align-self: center;
+  }
+  
+  .date_social {
+    display: flex;
+  }
+  
+  #date {
+    float: left;
+  }
+  
+  .nav-bar {
+    z-index: 1;
+    
+   margin-bottom: 20px;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 6%;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .icons1 {
+    margin-left: -2%;
+    width: 10%;
+    align-self: center;
+    justify-self: flex-start;
+    color: black;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  
+  .nav-button {
+    width: 13.4%;
+    display: flex;
+    justify-content: space-between;
+    align-self:center; 
+    margin-right: 1%; 
+  }
+  
+  .button {
+    border-radius: 7%;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: white;
+    background-color: rgb(62, 119, 163);
+    padding: 10px 18px 10px 19px;
+    border:  rgb(37, 69, 95);
+    margin-top: 5px;
+  }
+  
+  
+  header {
+    
+    text-align: center;
+    font-size: 250%;
+    font-style: italic;
+    width:60%;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 19%;
+    font-family: nyt-cheltenham;
+    font-weight: bold;
+  }
+  
+  .paragraph {
+    margin-left: 16%;
+    margin-right: 25%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .par1 {
+    color: black;
+    height: 100%;
+    font-size: 15px;
+  }
+  
+  
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;
+    color: #FFFF00;
+    height: 1px;
+    }
+  
+  .text_on_image {
+    position: relative;
+  }
+  
+  .text {
+   position: absolute;
+   width: 1120px;
+   height: 360px;
+   font-size: 10px;
+   color: black;
+   margin-top: 17%;
+   margin-left: 0%;
+   display: grid;
+   grid-template-columns: [oneCol] 22% [twoCol] 22% [threeCol] 22% [fourCol] 22% ;
+   grid-template-rows: [oneRow] 40% [twoRow] 30% [threeRow] 40%;
+  }
+  .grid {
+    font-family: nyt-imperial;
+    font-size: 20px;
+    word-wrap: break-word;
+    margin-left: 7%;
+  }
+  
+  .grid2 {
+    font-family: arial;
+    font-size: 13px;
+    word-wrap: break-word;
+  }
+  
+  .latest {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .sataliteImages {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .footer_logo {
+    margin: 0;
+  }
+  
+  p {
+    font-family: nyt-imperial;
+    
+    font-style: inherit;
+  }
+  
+  .footer_container_items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer_container_items a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .subscribe a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .copyrightLine a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .more a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .editorPickItems a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .popular a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer_container_items a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .editorPickItems {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .suggested {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .popular {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .imageText {
+    display: flex;
+    align-content: space-between;
+  }
+  
+  .copyrightLine {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: space-between;
+    font-size: 80%;
+  }
+  
+  .copyrightLine a:hover {
+    text-decoration: underline;
+  }
+  
