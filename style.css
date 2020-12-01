@@ -1,11 +1,65 @@
 body {
+    display: flex;
+    align-content: center;
+    align-content: space-between;
+    flex-direction: column;;
+}
+
+.nav-bar {
+    z-index: 1;
+    margin-bottom: 30px;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 6%;
+    border-bottom: 1px solid lightgray;
+}
+
+.icons1 {
+    margin-left: -2%;
+    width: 10%;
+    align-self: center;
+    justify-self: flex-start;
     color: black;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 7%;
-  }
+    justify-content: space-between;
+    justify-content: center;
+}
+
+#ic1 {
+    color:black;
+    margin-left:35%;
+    margin-right: 15%;
+}
+
+#ic2 {
+    color:black;
+}
   
-  .icon {
+#cosmos {
+    font-weight: bold;
+    font-family: nyt-franklin;
+    font-size: 14px; color: black;
+    align-self: center; margin-left: -21%;
+    margin-right:5%; text-decoration: none;
+}
+
+#ntyImage {
+    align-self:center;
+    justify-self:center;
+    width:17%;
+}
+
+#article1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto; 
+}
+
+.icon {
     padding: 5px;
     height: 15px;
     font-size: 30px;
@@ -16,7 +70,12 @@ body {
     background-color: lightgrey;
     color: black;
     margin-right: 10px;
-  }
+}
+
+#imgText {
+    font-family: nyt-imperial;
+    font-size: 15px;
+}
   
   .social_media {
     color: black;
@@ -35,31 +94,7 @@ body {
   #date {
     float: left;
   }
-  
-  .nav-bar {
-    z-index: 1;
-    
-   margin-bottom: 20px;
-    align-self: flex-start;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    height: 6%;
-    border-bottom: 1px solid lightgray;
-  }
-  
-  .icons1 {
-    margin-left: -2%;
-    width: 10%;
-    align-self: center;
-    justify-self: flex-start;
-    color: black;
-    justify-content: space-between;
-    justify-content: center;
-  }
-  
+
   .nav-button {
     width: 13.4%;
     display: flex;

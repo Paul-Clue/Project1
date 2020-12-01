@@ -4,35 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> New York Times Article </title>
-    <link rel="stylesheet" href="new_york_times_article.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link  rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   </head>
 
-  <body style="display: flex;  align-content: center; align-content: space-between;flex-direction: column;">
+  <body>
 
     <div class="nav-bar" style="margin-bottom: 30px;">
-    <div class="icons1">
-    <a href="#" style="color:black;margin-left:35%; margin-right: 15%;"> <i class="fa fa-bars"> </i> </a>
-    <a href="#" style="color:black;"> <i  class="fa fa-search"></i> </a>
-    </div>
-    <a href=# style="font-weight: bold; font-family: nyt-franklin; font-size: 14px; color: black; align-self: center; margin-left: -21%; margin-right:5%; text-decoration: none;"> SPACE & COSMOS </a>  
-    
-    <a href="#" style="align-self:center; justify-self:center; width:17%; ">
-      <img  src = "images/logo.jpg" alt = "NY Times logo" ><!--This image is a screen shot from the  actual article-->
-    </a>
-    <div class="nav-button">
-      <div><a href="#" class="button"> SUBSCRIBE </a></div>
-      <div><a href="#" class="button"> LOG IN </a></div>
-    </div>
+      <div class="icons1">
+        <a href="#" id="ic1" > <i class="fa fa-bars"> </i> </a>
+        <a href="#" id="ic2" > <i  class="fa fa-search"></i> </a>
+      </div>
+      <a href=# id="cosmos"> SPACE & COSMOS </a>  
+      
+      <a href="#" id="nytImage">
+        <img  src = "images/logo.jpg" alt = "NY Times logo" ><!--This image is a screen shot from the  actual article-->
+      </a>
+      <div class="nav-button">
+        <div><a href="#" class="button"> SUBSCRIBE </a></div>
+        <div><a href="#" class="button"> LOG IN </a></div>
+      </div>
     </div>
     <!--article-->
-     <div style="display: flex; flex-direction: column; width: 70%; margin: auto; " >  
+     <div id="article1">  
       <header > Space Ripples Reveal Big Bang's Smoking Gun </header>
       <img src = "images/nyt_pic1.jpg" alt = "Physicist Alan Guth standing next to a big satalite">
-      <h4 style="font-family: nyt-imperial; font-size: 15px;"><span style="color:gray;"> Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so
+      <h4 id="imgText"><span style="color:gray;"> Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so
         quickly in the instant after the Big Bang 13.8 billion years ago. Rick Friedman for The New York Times</span> </h4>
 
         <div style="width: 70%; margin: auto; ">
@@ -440,7 +440,7 @@
             <div style="width:250px;">
               <div class="pcs" style="display:flex;">
               <a href="#"> <img src="images/morning_logo.jpg" alt="An image of the morning logo" style="width:60%; margin-left:0;"> </a>
-              <a href="#"> <img src="images/plus.png" alt="An image of an add sign" style="width:20%; height:50%; border:solid black; border-radius:50%;"> </a>
+              <!--<a href="#"> <img src="images/plus.png" alt="An image of an add sign" style="width:20%; height:50%; border:solid black; border-radius:50%;"> </a>-->
           </div>
   
               <h5> Daily </h5>
