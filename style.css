@@ -313,7 +313,7 @@ p {
   flex-direction: column;
   font-size: 18px;
   font-weight: bold;
-}
+  }
 
 .imageText {
   display: flex;
